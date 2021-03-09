@@ -19,7 +19,7 @@ function changeClass(event) {
     body.classList.add(Theme.LIGHT);
     body.classList.remove(Theme.DARK);
 
-    localStorage.removeItem('theme');
+   
     localStorage.setItem('theme', Theme.LIGHT);
   }
 }
